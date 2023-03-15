@@ -7,7 +7,7 @@ U8G2_SSD1306_128X64_NONAME_F_HW_I2C u8g2(U8G2_R0, /* clock=*/ SCL, /* data=*/ SD
 
 #define bar_num 32
 byte recievedData[bar_num];
-uint8_t values[bar_num] = {0,0,0,0,0, 0,0,0,0,0, 0,0,0,0,0, 00,0,0,0,0, 0,0,0,0,0, 0,0,0,0,0, 0};
+uint8_t values[bar_num] = {0,0,0,0,0, 0,0,0,0,0, 0,0,0,0,0, 0,0,0,0,0, 0,0,0,0,0, 0,0,0,0,0, 0,0};
 
 void setup(void) {
   Serial.begin(115200);
